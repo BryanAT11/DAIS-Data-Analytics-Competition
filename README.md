@@ -39,55 +39,23 @@ The model performance is evaluated using four key metrics:
 ### CNA Staffing Predictions
 | Metric | Training Set | Test Set |
 |--------|--------------|----------|
-| MAE    | 30.78       | 31.03    |
-| MAPE   | 26.53%      | 25.03%   |
-| SMAPE  | 22.12%      | 21.92%   |
-| MIS    | 764.03      | 776.85   |
+| MAE    | 30.47        | 30.92    |
+| MAPE   | 25.97%       | 24.66%   |
+| SMAPE  | 21.88%       | 21.86%   |
+| MIS    | 91.59        | 90.61   |
 
 ### LPN Staffing Predictions
 | Metric | Training Set | Test Set |
 |--------|--------------|----------|
-| MAE    | 18.01       | 17.58    |
-| MAPE   | 52.49%      | 55.57%   |
-| SMAPE  | 37.65%      | 38.17%   |
-| MIS    | 323.65      | 288.59   |
+| MAE    | 17.90        | 17.57    |
+| MAPE   | 49.91%       | 52.40%   |
+| SMAPE  | 37.51%       | 38.14%   |
+| MIS    | 61.68        | 51.73    |
 
 ### RN Staffing Predictions
 | Metric | Training Set | Test Set |
 |--------|--------------|----------|
-| MAE    | 15.65       | 15.86    |
-| MAPE   | 69.42%      | 71.54%   |
-| SMAPE  | 53.85%      | 51.96%   |
-| MIS    | 175.31      | 158.87   |
-
-## Key Findings
-
-1. **Model Stability**
-   - Similar metrics between training and test sets indicate good generalization
-   - No significant overfitting observed
-
-2. **Staff Type Performance**
-   - CNA predictions show highest absolute error but lowest percentage error
-   - RN predictions show lowest absolute error but highest percentage error
-   - LPN predictions fall between CNA and RN for most metrics
-
-3. **Prediction Intervals**
-   - MIS values decrease from CNA to RN staffing
-   - Suggests more precise confidence intervals for RN staffing predictions
-
-## Running the Evaluation
-
-To reproduce these results:
-
-1. Ensure you have the required Python packages installed
-2. Place the "Phase 1 Training Dataset.xlsx" in the same directory as the script
-3. Run the evaluation script:
-   ```bash
-   python nh_staffing_predictor.py
-   ```
-
-The script will automatically:
-- Load and split the data (80/20)
-- Train the models
-- Generate predictions
-- Calculate and display all evaluation metrics
+| MAE    | 15.38        | 15.81    |
+| MAPE   | 66.83%       | 68.91%   |
+| SMAPE  | 53.56%       | 52.10%   |
+| MIS    | 52.41        | 53.30    |
