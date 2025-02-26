@@ -40,12 +40,12 @@ The model performance is evaluated using four key metrics:
 
 ### CNA Staffing Predictions
 
-| Metric | Training Set | Test Set |
-| ------ | ------------ | -------- |
-| MAE    | 86.033       | 88.073   |
-| MAPE   | 42.529%      | 42.697%  |
-| SMAPE  | 59.185%      | 60.218%  |
-| MIS    | 198.693      | 263.979  |
+| Metric | Training Set | Validation Set |
+| ------ | ------------ | -------------- |
+| MAE    | 86.033       | 88.073         |
+| MAPE   | 42.529%      | 42.697%        |
+| SMAPE  | 59.185%      | 60.218%        |
+| MIS    | 198.693      | 263.979        |
 
 ### LPN Staffing Evaluation
 
