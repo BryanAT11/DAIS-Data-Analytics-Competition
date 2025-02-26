@@ -47,23 +47,23 @@ The model performance is evaluated using four key metrics:
 | SMAPE  | 59.185%      | 60.218%  |
 | MIS    | 198.693      | 263.979  |
 
-### LPN Staffing Predictions
+### LPN Staffing Evaluation
 
-| Metric | Training Set | Test Set |
-| ------ | ------------ | -------- |
-| MAE    | 33.272       | 32.261   |
-| MAPE   | 47.894%      | 49.316%  |
-| SMAPE  | 67.757%      | 68.615%  |
-| MIS    | 179.354      | 164.064  |
+| Metric    | Training Set | Validation Set |
+| --------- | ------------ | -------------- |
+| **MAE**   | 24.993       | 24.117         |
+| **MAPE**  | 35.515%      | 36.972%        |
+| **SMAPE** | 45.016%      | 46.305%        |
+| **MIS**   | 55.057       | 56.861         |
 
-### RN Staffing Predictions
+### RN Staffing Evaluation
 
-| Metric | Training Set | Test Set |
-| ------ | ------------ | -------- |
-| MAE    | 17.803       | 18.458   |
-| MAPE   | 41.438%      | 42.786%  |
-| SMAPE  | 58.453%      | 58.308%  |
-| MIS    | 35.460       | 36.461   |
+| Metric    | Training Set | Validation Set |
+| --------- | ------------ | -------------- |
+| **MAE**   | 13.582       | 14.322         |
+| **MAPE**  | 33.259%      | 35.808%        |
+| **SMAPE** | 45.125%      | 46.022%        |
+| **MIS**   | 37.994       | 37.890         |
 
 ## Key Findings
 
