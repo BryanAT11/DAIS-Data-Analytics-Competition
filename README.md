@@ -42,10 +42,10 @@ The model performance is evaluated using four key metrics:
 
 | Metric | Training Set | Validation Set |
 | ------ | ------------ | -------------- |
-| MAE    | 86.033       | 88.073         |
-| MAPE   | 42.529%      | 42.697%        |
-| SMAPE  | 59.185%      | 60.218%        |
-| MIS    | 198.693      | 263.979        |
+| MAE    | 44.392       | 45.279         |
+| MAPE   | 20.228%      | 20.005%        |
+| SMAPE  | 23.651%      | 23.953%        |
+| MIS    | 146.848      | 151.804        |
 
 ### LPN Staffing Evaluation
 
