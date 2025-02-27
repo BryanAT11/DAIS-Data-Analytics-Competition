@@ -61,7 +61,7 @@ The model performance is evaluated using four key metrics:
 | MIS    | 52.41        | 53.30    |
 
 ### Full Results
-| Metric | Training Set |
+| Metric | Entire File  |
 |--------|--------------|
 | MAE    | 78.11        |
 | MAPE   | 205.96%      |
