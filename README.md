@@ -59,3 +59,11 @@ The model performance is evaluated using four key metrics:
 | MAPE   | 66.83%       | 68.91%   |
 | SMAPE  | 53.56%       | 52.10%   |
 | MIS    | 52.41        | 53.30    |
+
+### Full Results
+| Metric | Training Set |
+|--------|--------------|
+| MAE    | 78.11        |
+| MAPE   | 205.96%      |
+| SMAPE  | 87.09%       |
+| MIS    | 1015.35      |
