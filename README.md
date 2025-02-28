@@ -17,28 +17,34 @@ The model performance is evaluated using four key metrics: MAE, MAPE, SMAPE, MIS
 
 | Metric | Training Set | Validation Set |
 | ------ | ------------ | -------------- |
-| MAE    | 44.392       | 45.279         |
-| MAPE   | 20.228%      | 20.005%        |
-| SMAPE  | 23.651%      | 23.953%        |
-| MIS    | 146.848      | 151.804        |
+| MAE    | 13.523       | 13.343         |
+| MAPE   | 21.539%      | 18.247%        |
+| SMAPE  | 13.456%      | 12.972%        |
+| Coverage | 47.7%      | 45.8%          |
+| Interval Width | 82.945 | 81.765       |
+| MIS    | 440.277     | 436.794         |
 
 #### LPN Staffing Evaluation
 
 | Metric    | Training Set | Validation Set |
 | --------- | ------------ | -------------- |
-| **MAE**   | 24.993       | 24.117         |
-| **MAPE**  | 35.515%      | 36.972%        |
-| **SMAPE** | 45.016%      | 46.305%        |
-| **MIS**   | 55.057       | 56.861         |
+| MAE       | 11.432       | 12.184         |
+| MAPE      | 53.096%      | 58.715%        |
+| SMAPE     | 30.499%      | 32.804%        |
+| Coverage  | 37.9%        | 36.2%          |
+| Interval Width | 32.332  | 31.371         |
+| MIS       | 372.081      | 377.059        |
 
 #### RN Staffing Evaluation
 
 | Metric    | Training Set | Validation Set |
 | --------- | ------------ | -------------- |
-| **MAE**   | 13.582       | 14.322         |
-| **MAPE**  | 33.259%      | 35.808%        |
-| **SMAPE** | 45.125%      | 46.022%        |
-| **MIS**   | 37.994       | 37.890         |
+| MAE       | 7.244        | 7.586          |
+| MAPE      | 32.995%      | 34.017%        |
+| SMAPE     | 33.429%      | 32.607%        |
+| Coverage  | 48.4%        | 47.7%          |
+| Interval Width | 28.361  | 29.128         |
+| MIS       | 179.004      | 189.059        |
 
 ## Validation: Test data validation
 
