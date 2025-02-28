@@ -49,13 +49,13 @@ The model performance is evaluated using four key metrics: MAE, MAPE, SMAPE, MIS
 ## Validation: Test data validation
 
 ### Full Results
-Used Phase 1 Predictions Output_high.xlxs
+Used Phase 1 Predictions Output_high3.xlxs
 | Metric | Entire File  |
 |--------|--------------|
-| MAE    | 78.43        |
-| MAPE   | 208.277%      |
-| SMAPE  | 87.06%       |
-| MIS    | 707.80      |
+| MAE    | 78.09        |
+| MAPE   | 207.092%      |
+| SMAPE  | 86.85%       |
+| MIS    | 704.656      |
 
 ## Key Findings
 
