@@ -48,7 +48,13 @@ The model performance is evaluated using four key metrics: MAE, MAPE, SMAPE, MIS
 
 ## Validation: Test data validation
 
-### Result
+### Full Results
+| Metric | Entire File  |
+|--------|--------------|
+| MAE    | 77.614        |
+| MAPE   | 210.825%      |
+| SMAPE  | 84.665%       |
+| MIS    | 1390.56      |
 
 ## Key Findings
 
