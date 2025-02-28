@@ -1,44 +1,19 @@
 # Nursing Home Staffing Predictor Evaluation Results
 
 - Data Source: Phase 1 Training Dataset.xlsx
+- Notebook used: nh_staffing_notebook_ver2
 
 ## Evaluation Metrics
 
-The model performance is evaluated using four key metrics:
-
-1. **MAE (Mean Absolute Error)**
-
-   - Measures average absolute difference between predicted and actual values
-   - Lower values indicate better performance
-   - Unit: Number of staff members
-
-2. **MAPE (Mean Absolute Percentage Error)**
-
-   - Percentage error relative to actual values
-   - Uses threshold of 1.0 to avoid division by small numbers
-   - Lower values indicate better performance
-   - Unit: Percentage
-
-3. **MIS (Mean Interval Score)**
-   - Evaluates prediction intervals (95% confidence level)
-   - Penalizes predictions outside confidence interval
-   - Uses median for robustness
-   - Lower values indicate better performance
-   - Unit: Composite score
+The model performance is evaluated using four key metrics: MAE, MAPE, SMAPE, MIS
 
 ## Model Used: XGBoost and quantile regression for CI computation
 
 ## Validation: Time-based Validation on 20% training data
 
-## Alternative Validation to consider: Group K-Fold Cross-Validation (Leave-One-NH-Out per Group)
+### Results
 
-- Train on 4 NHs per group.
-- Validate on the remaining 1 NH per group.
-- Rotate until every NH has been validated once.
-
-## Results
-
-### CNA Staffing Predictions
+#### CNA Staffing Predictions
 
 | Metric | Training Set | Validation Set |
 | ------ | ------------ | -------------- |
@@ -47,7 +22,7 @@ The model performance is evaluated using four key metrics:
 | SMAPE  | 23.651%      | 23.953%        |
 | MIS    | 146.848      | 151.804        |
 
-### LPN Staffing Evaluation
+#### LPN Staffing Evaluation
 
 | Metric    | Training Set | Validation Set |
 | --------- | ------------ | -------------- |
@@ -56,7 +31,7 @@ The model performance is evaluated using four key metrics:
 | **SMAPE** | 45.016%      | 46.305%        |
 | **MIS**   | 55.057       | 56.861         |
 
-### RN Staffing Evaluation
+#### RN Staffing Evaluation
 
 | Metric    | Training Set | Validation Set |
 | --------- | ------------ | -------------- |
@@ -64,6 +39,10 @@ The model performance is evaluated using four key metrics:
 | **MAPE**  | 33.259%      | 35.808%        |
 | **SMAPE** | 45.125%      | 46.022%        |
 | **MIS**   | 37.994       | 37.890         |
+
+## Validation: Test data validation
+
+### Result
 
 ## Key Findings
 
